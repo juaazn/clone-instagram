@@ -1,0 +1,29 @@
+.container {
+	width: auto;
+	height: 100svh;
+	display: flex;
+}
+
+.navegation_main {
+	width: 25%;
+	height: 100%;
+	position: fixed;
+	background-color: azure;
+}
+
+.navegation_user {
+
+}
+
+.post {
+	width: 50%;
+	height: auto;
+	background-color: bisque;
+}
+
+.Suggestions {
+	width: 25%;
+	height: 100%;
+	background-color: cadetblue;
+	position: fixed;
+}
