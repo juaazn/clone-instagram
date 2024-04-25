@@ -5,9 +5,14 @@
 }
 
 .navegation_main {
-	width: 25%;
+	width: 20%;
 	height: 100%;
-	position: fixed;
+}
+
+.navegation_main_fixed {
+	width: 20%;
+	height: 100%;	
+ 	position: fixed;
 	background-color: azure;
 }
 
@@ -21,8 +26,13 @@
 	background-color: bisque;
 }
 
-.Suggestions {
-	width: 25%;
+.suggestions {
+	width: 30%;
+	height: 100%;
+}
+
+.suggestions_fixed {
+	width: 30%;
 	height: 100%;
 	background-color: cadetblue;
 	position: fixed;
