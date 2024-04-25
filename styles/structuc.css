@@ -3,37 +3,25 @@
 	height: 100svh;
 	display: flex;
 }
-
 .navegation_main {
 	width: 20%;
 	height: 100%;
 }
-
 .navegation_main_fixed {
 	width: 20%;
 	height: 100%;	
  	position: fixed;
-	background-color: azure;
 }
-
-.navegation_user {
-
-}
-
 .post {
 	width: 50%;
 	height: auto;
-	background-color: bisque;
 }
-
 .suggestions {
 	width: 30%;
 	height: 100%;
 }
-
 .suggestions_fixed {
 	width: 30%;
 	height: 100%;
-	background-color: cadetblue;
 	position: fixed;
 }
