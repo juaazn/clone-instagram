@@ -1,5 +1,13 @@
 @import './styles/structuc.css';
 @import './styles/navegation.css';
+@import './styles/aside.css';
+
+:root {
+  --blue: #0095F6;
+  --gray: #8E8E8E;
+  --text: .9em;
+}
+
 
 html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -24,4 +32,12 @@ a {
 
 img {
   max-width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+p {
+  margin: initial;
 }
