@@ -5,7 +5,9 @@
 
 :root {
   --blue: #0095F6;
+  --gray-structure: #e0e0e0;
   --gray: #8E8E8E;
+  --degradado: linear-gradient(#DE0046, #F7A34B);;
   --text: .9em;
 }
 
