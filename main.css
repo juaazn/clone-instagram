@@ -1,6 +1,7 @@
 @import './styles/structuc.css';
 @import './styles/navegation.css';
 @import './styles/aside.css';
+@import './styles/storys.css';
 
 :root {
   --blue: #0095F6;
