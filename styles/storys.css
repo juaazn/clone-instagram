@@ -1,0 +1,40 @@
+.navegation_user {
+  width: 100%;
+	height: 9.5rem;
+	display: flex;
+	align-items: center;
+	border: solid .1rem var(--gray-structure);
+}
+
+.list_storys {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	& span {
+		width: 4.5rem;
+		height: 8rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: .2rem;
+	}
+
+	& a {
+		width: 4.3rem;
+		height: 4.363rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: var(--degradado);
+		box-sizing: border-box;
+		border-radius: 50%;
+	}
+
+	& a img {
+		border: .2rem solid var(--gray-structure);
+		border-radius: 50%;
+	}
+}
