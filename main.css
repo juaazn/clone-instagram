@@ -2,6 +2,7 @@
 @import './styles/navegation.css';
 @import './styles/aside.css';
 @import './styles/storys.css';
+@import './styles/post.css';
 
 :root {
   --blue: #0095F6;
@@ -43,4 +44,8 @@ h1, h2, h3, h4, h5 {
 
 p {
   margin: initial;
+}
+
+a {
+  display: block;
 }
