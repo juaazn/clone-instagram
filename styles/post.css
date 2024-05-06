@@ -1,0 +1,114 @@
+.post_container {
+  width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: #eeeeee;
+}
+
+.profile_header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 2rem;
+
+	& span {
+		width: 5rem;
+		height: 5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	& a {
+		width: 2.8rem;
+		height: 2.860rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: var(--degradado);
+		box-sizing: border-box;
+		border-radius: 50%;
+	}
+
+	& a img {
+		border: .2rem solid var(--gray-structure);
+		border-radius: 50%;
+	}
+
+	& p {
+		width: 1rem;
+		font-weight: 500;
+	}
+}
+
+.bt_post_more {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.icons_interactions {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 0 2rem;
+	align-items: center;
+}
+
+.icons {
+	width: 6rem;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .8rem;
+	margin: 1rem 0;
+}
+
+.views {
+	width: 100%;
+	height: 6rem;
+	box-sizing: border-box;
+	padding: 0 .5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: .5rem;
+
+	& div {
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: .2rem;
+		font-size: 1.1rem;
+	}
+	& div:last-child {
+		color: var(--gray);
+		font-size: initial;
+	}
+	& button {
+		background: none;
+		border: none;
+		cursor: pointer;
+		color: var(--gray);
+		font-size: 1.1rem;
+	}
+}
+
+.comments {
+	width: 100%;
+	height: 5rem;
+	display: flex;
+	justify-content: space-between;
+
+	& div:nth-child(1) {
+		display: flex;
+		gap: 3rem;
+	}
+}
